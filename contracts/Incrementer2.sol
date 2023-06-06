@@ -8,7 +8,7 @@ contract Incrementer {
 	}
 
 	function increment(uint256 _value) public {
-		number = number - _value;
+		number = number + _value;
 	}
 
 	function reset() public {
